@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(background.png);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo {
+    height: 77px;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 36px;
+}
+
+.menu-item {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.menu-item:hover {
+    color:#ffe58e;
+}
+
+.conteudo {
+    padding-top: 70px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo {
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.descrição {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    width: 688px;
+    height: 171px;
+    left: 66px;
+    top: 298px;
+}
+
+.botão {
+    background-color: #7350D7;
+    width: 281px;
+    height: 77px;
+    left: 66px;
+    top: 497px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    color: #ffffff;
+}
+
+.botão:hover{
+    background-color: #5B3DB2;
+}
+
+.foto2 {
+    position: absolute;
+    width: 316px;
+    height: 271px;
+    left: 250px;
+    top: 689px;
+}
+
+.foto1 {
+    position: absolute;
+    width: 316px;
+    height: 271px;
+    left: 709px;
+    top: 689px;
+}
+
+.foto3 {
+    position: absolute;
+    width: 316px;
+    height: 271px;
+    left: 1168px;
+    top: 689px;
+}
